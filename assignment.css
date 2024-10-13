@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(47, 88%, 63%);
+    font-family: "figtree",sans-serif;
+    
+}
+.container{
+    background-color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border: 2px solid;
+    border-radius: 30px;
+    border-bottom-width: 15px;
+    border-right-width: 15px;
+
+    
+    
+}
+.image{
+    background-image: url(img/illustration-article.svg);
+    height: 300px;
+    margin: 45px 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 10px;
+    border-radius: 8PX;
+    
+}
+.learn{
+    background-color: hsl(47, 88%, 63%);
+    border: 1px solid;
+    width: 125px;
+    border-radius: 5px;
+    margin: 30px 0px 30px 45px;
+}
+.learn h2{
+    padding: 10px;
+}
+.spa{
+    margin:  30px 0px 30px 45px;
+    gap: 4px;
+    color: hsl(0, 0%, 20%);
+}
+.htm{
+    margin:  30px 0px 30px 45px;
+    gap: 4PX;
+    font-weight: bold; 
+}
+.text{
+    margin:  30px 0px 30px 45px;
+    width: 320px;
+    gap: 4px;
+    color:  hsl(0, 0%, 42%);
+}
+.ava{
+    margin:  0px 0px 30px 45px;
+    gap: 4px;
+    display: flex;
+
+    
+}
+.ava span{
+    margin:  30px 0px 30px 30px;
+    font-weight: bolder;
+}
